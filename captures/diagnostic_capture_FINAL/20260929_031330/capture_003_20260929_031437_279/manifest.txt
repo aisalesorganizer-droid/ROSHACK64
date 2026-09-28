@@ -1,0 +1,30 @@
+ROS64 Diagnostic Capture FINAL
+================================
+
+READ-ONLY: no process-memory writes.
+
+PROVEN/RECONCILED INPUT CONSTANTS
+EM_STATIC_PTR=0x31f53d8
+EM_CONTROLLED_ENT=0x10f8
+ENT_OB_TYPE=0x8
+ENT_ENTITY_ID=0x18
+ENT_X/Y/Z=0x1C/0x20/0x24
+PY_INSTANCE_DICT=0x1b0
+PY_DICT_USED/MASK/TABLE=0x18/0x20/0x28
+PY_DICT_ENTRY_KEY/VALUE=0x08/0x10
+PY_DICT_ENTRY_STRIDE=0x18
+CAMERA_VTABLE_RVA=0x1d84dc8
+MODEL_SKELETAL_VTABLE_RVA=0x1c1ace0
+SPACE_NODE_VTABLE_RVA=0x1c137c8
+MODEL_SPACENODE_PTR=0x38
+MODEL_META_PTR=0x30
+SPACE_X/Y/Z=0x48/0x4C/0x50
+
+DIAGNOSTIC-ONLY TESTS (NOT ASSUMED FACTS)
+BGA +0x48 is inspected only because prior evidence exposed a dict-like pointer there.
+BGA +0x1B0 is inspected as the current proven PBGA instance-dict offset; for BGA it is tested, not assumed.
+BGA->Model identity is not declared from screen/cursor proximity.
+Camera candidates are never ranked by projected-count alone.
+The camera block is read contiguously so fwd/up/right/pos/focal come from one read.
+Camera sanity filters: basis lengths within 5%, pairwise dot products <=0.05, focal 0.3..10, finite position <50000.
+Motion correlation is reported numerically without an arbitrary identity pass/fail threshold.

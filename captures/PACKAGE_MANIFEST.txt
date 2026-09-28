@@ -1,0 +1,35 @@
+PACKAGE: ROS64Hack_FIXED_SHIFT_ESP_V9
+
+ROOT DIRECTORIES
+- ROS64Hack\       Main application source/project
+- MemoryVerifier\  Separate read-only verifier project
+
+PRIMARY FIX
+- ESP enemy enumeration now uses the live verified PBGA.avatarInAoI dictionary path.
+- EM+0x10E0 tree enumeration has been removed from the main ESP hot path.
+- Whole-process BGA heap scanning is not used.
+
+MAIN PROJECT IMPORTANT FILES
+- ROS64Hack\ROS64Hack.csproj
+- ROS64Hack\Program.cs
+- ROS64Hack\Core\Mem.cs
+- ROS64Hack\Core\Offsets.cs
+- ROS64Hack\Core\RuntimeDiagnostics.cs
+- ROS64Hack\Core\WorldToScreen.cs
+- ROS64Hack\Engine\Camera.cs
+- ROS64Hack\Engine\EntityData.cs
+- ROS64Hack\Engine\EntityLoop.cs
+- ROS64Hack\Engine\PlayerReader.cs
+- ROS64Hack\Features\Aimbot.cs
+- ROS64Hack\Features\ESP.cs
+- ROS64Hack\Features\NoClip.cs
+- ROS64Hack\Features\Settings.cs
+- ROS64Hack\Overlay\HackOverlay.cs
+- ROS64Hack\Overlay\MenuForm.cs
+
+VERIFIER IMPORTANT FILES
+- MemoryVerifier\MemoryVerifier.csproj
+- MemoryVerifier\Program.cs
+- MemoryVerifier\README.txt
+
+NO bin/ OR obj/ DIRECTORIES ARE INCLUDED.

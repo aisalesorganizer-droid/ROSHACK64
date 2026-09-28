@@ -1,0 +1,10 @@
+FINAL DIAGNOSTIC ANALYSIS DATA
+==============================
+
+No automatic identity verdict is produced. Read motion_correlations.csv and pointer_links.csv.
+
+DIRECT POINTER LINKS
+
+TOP MOTION CORRELATIONS BY POSITION_R2 / OFFSET_RMS
+
+CAMERA EVALUATIONS

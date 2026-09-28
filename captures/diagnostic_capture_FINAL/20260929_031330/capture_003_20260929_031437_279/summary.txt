@@ -1,0 +1,15 @@
+capture_time=2026-09-29T03:14:37.273
+trigger_cursor_client=(640.0, 352.0)
+module_base=0x140000000
+module_size=0x5aea000
+window={'width': 1280, 'height': 705, 'origin_x': 0, 'origin_y': 23, 'cursor_client': (640.0, 352.0)}
+em_ptr=0x00000000141FA030
+local_player_ptr=0x0000000000000000
+local_player_xyz=NONE
+aoi_info=None
+bga_count=0
+model_count=143
+camera_count=2
+history_samples=16
+scan_stats={'scanned_bytes': 2042068992, 'regions': 2737, 'scan_capped': False, 'camera_vtable_hits': 10, 'camera_candidates': 10, 'camera_sane': 3, 'camera_rejections': {'focal': 6, 'basis_length,focal': 1}, 'model_vtable_hits': 145, 'model_valid': 143, 'bga_valid': 0, 'aoi': None, 'last_scan_iso': '2026-09-29T03:14:34.085', 'pointer_links': None}
+tracker_error=

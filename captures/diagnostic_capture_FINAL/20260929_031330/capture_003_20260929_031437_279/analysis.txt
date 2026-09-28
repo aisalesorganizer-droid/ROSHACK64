@@ -1,0 +1,12 @@
+FINAL DIAGNOSTIC ANALYSIS DATA
+==============================
+
+No automatic identity verdict is produced. Read motion_correlations.csv and pointer_links.csv.
+
+DIRECT POINTER LINKS
+
+TOP MOTION CORRELATIONS BY POSITION_R2 / OFFSET_RMS
+
+CAMERA EVALUATIONS
+{'camera_ptr': '0x00000000628EF460', 'local_distance_raw': None, 'local_screen_x': None, 'local_screen_y': None, 'local_depth': None, 'bga_projected': 0, 'bga_onscreen': 0, 'model_projected': 0, 'model_onscreen': 0, 'center_nearest_bga_px': None, 'center_nearest_model_px': None, 'center_nearest_bga_ptr': '', 'center_nearest_model_ptr': '', 'local_screen_on_client': False}
+{'camera_ptr': '0x00000000628FD8F0', 'local_distance_raw': None, 'local_screen_x': None, 'local_screen_y': None, 'local_depth': None, 'bga_projected': 0, 'bga_onscreen': 0, 'model_projected': 24, 'model_onscreen': 0, 'center_nearest_bga_px': None, 'center_nearest_model_px': 1438.467843921945, 'center_nearest_bga_ptr': '', 'center_nearest_model_ptr': '0x00000000304D1B88', 'local_screen_on_client': False}

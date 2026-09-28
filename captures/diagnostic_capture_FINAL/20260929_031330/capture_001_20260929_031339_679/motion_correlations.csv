@@ -1,0 +1,1 @@
+bga_ptr,entity_id,model_ptr,space_ptr,samples,bga_motion,model_motion,offset_rms,velocity_rmse,velocity_cos_mean,position_r2,offset_x,offset_y,offset_z

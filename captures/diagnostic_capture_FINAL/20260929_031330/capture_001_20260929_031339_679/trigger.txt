@@ -1,0 +1,4 @@
+time=2026-09-29T03:13:39.648
+time_epoch=1790622819.6485705
+cursor_screen=(640, 375)
+cursor_client=(640.0, 352.0)
