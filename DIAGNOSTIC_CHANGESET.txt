@@ -1,0 +1,27 @@
+ENTITY -> MODEL -> SPACENODE DIAGNOSTIC CHANGESET
+
+Modified:
+  Core/Mem.cs
+    + ReadBytesQuiet() for diagnostic-only RPM that does not increment RuntimeDiagnostics RPM counters.
+
+  Core/Offsets.cs
+    + exact ModelSkeletal / SpaceNode / Model vtable RVAs used by the evidence scanner.
+
+  Engine/EntityData.cs
+    + Id snapshot field.
+
+  Engine/EntityLoop.cs
+    + preserve already-read BGA entity ID in EntityData.Id.
+
+  Engine/PlayerReader.cs
+    + read/store the local PBGA entity ID for diagnostic correlation.
+
+  Overlay/HackOverlay.cs
+    + instantiate/start/observe/dispose EntityModelCorrelationDiagnostics.
+    + no camera, W2S, ESP, aimbot, or entity-enumeration logic is replaced.
+
+Added:
+  Core/EntityModelCorrelationDiagnostics.cs
+    Exact ModelSkeletal vtable scan -> SpaceNode validation -> reverse references -> native Entity fingerprint -> BGA ID/XYZ correlation -> continuity samples.
+
+The diagnostic deliberately does NOT use the rejected BGA.+0xB8/+0x2B0 path.
