@@ -1,0 +1,15 @@
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\bin\Release\net8.0-windows\ROS64Hack.exe
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\bin\Release\net8.0-windows\ROS64Hack.deps.json
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\bin\Release\net8.0-windows\ROS64Hack.runtimeconfig.json
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\bin\Release\net8.0-windows\ROS64Hack.dll
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\bin\Release\net8.0-windows\ROS64Hack.pdb
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.AssemblyInfoInputs.cache
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.AssemblyInfo.cs
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.csproj.CoreCompileInputs.cache
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.sourcelink.json
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.dll
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\refint\ROS64Hack.dll
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.pdb
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ROS64Hack.genruntimeconfig.cache
+C:\Users\MAFIA\Documents\Text Files\ROSLegacy_Folder\ROS64HACK\ROS64Hack\obj\Release\net8.0-windows\ref\ROS64Hack.dll
